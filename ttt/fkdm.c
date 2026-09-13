@@ -10,6 +10,6 @@ typedef struct
     int length;
 }List;
 typedef enum{
-    OK=0;
-    error=0;
-}
+    OK=0,
+    error=0
+}Status;
